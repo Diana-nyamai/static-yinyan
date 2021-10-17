@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero div{
+    padding: 20px;
+}
+.hero{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.box1{
+    background: green;
+}
+.box2{
+    background: blue;
+}
+.box3{
+    background: purple;
+}
+.box4{
+    background: red;
+} 
